@@ -8,8 +8,14 @@ public class OffGameChangeSceneHandler : MonoBehaviour
 {
     public string gameSceneName;
 
+    public bool loadAdOnButton;
+    public float adProbability;
+
     public void _changeScene()
     {
         SceneManager.LoadScene(gameSceneName);
+
+        if (loadAdOnButton)
+            AdController.showLoadedAd(adProbability);
     }
 }

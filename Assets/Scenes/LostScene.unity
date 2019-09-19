@@ -587,6 +587,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSceneName: Game
+  loadAdOnButton: 1
+  adProbability: 6.5
 --- !u!114 &1583345031
 MonoBehaviour:
   m_ObjectHideFlags: 0

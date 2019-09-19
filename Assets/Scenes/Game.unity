@@ -6884,6 +6884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855976343}
   - component: {fileID: 1855976344}
+  - component: {fileID: 1855976345}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -6921,6 +6922,20 @@ MonoBehaviour:
   loadingBar: {fileID: 1102012231}
   lostSceneName: LostScene
   wonSceneName: WonScene
+--- !u!114 &1855976345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855976342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846594787fb0ced45bb2f3e51ec05fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interStAdShowProbability: 0
+  testAd: 0
 --- !u!1 &2132595460
 GameObject:
   m_ObjectHideFlags: 0
