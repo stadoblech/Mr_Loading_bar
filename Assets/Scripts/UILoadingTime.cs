@@ -10,12 +10,11 @@ public class UILoadingTime : MonoBehaviour
     void Start()
     {
         loadingTimeText = GetComponent<Text>();
-        loadingTimeText.text = GameController.runningTime.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        loadingTimeText.text = ConversionHelper.floatToTimeString(GameController.runningTime);
     }
 }

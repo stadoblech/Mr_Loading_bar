@@ -26,6 +26,8 @@ public class GameController : MonoBehaviour
     {
         if(gameRunning)
             runningTime += Time.deltaTime;
+
+        print(runningTime);
     }
 
     void looseGameScenario()
