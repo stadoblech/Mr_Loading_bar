@@ -23,7 +23,7 @@ public class WinController : MonoBehaviour
         if(actualTime < bestTime)
         {
             congratulationsText.enabled = true;
-            PersistentData.setTime(bestTime);
+            PersistentData.setTime(actualTime);
         }
 
     }
