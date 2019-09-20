@@ -328,7 +328,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Balance
 
-    touch'
+    touch
+
+    zone'
 --- !u!222 &503673637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1356,7 +1358,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Balance
 
-    touch'
+    touch
+
+    zone'
 --- !u!222 &1057895131
 CanvasRenderer:
   m_ObjectHideFlags: 0
