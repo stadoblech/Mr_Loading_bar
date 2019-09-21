@@ -10,12 +10,24 @@ public class AdController : MonoBehaviour
     private static InterstitialAd interstitial;
 
     const string interTestId = "ca-app-pub-3940256099942544/1033173712";
+
+#if UNITY_ANDROID
     const string interLiveId = "ca-app-pub-7164181614025005/7450768977";
+#endif
+
+#if UNITY_IOS
+    const string interLiveId = "ca-app-pub-7164181614025005/7904767371";
+#endif
 
     public void Start()
     {
-
+#if UNITY_ANDROID
         string appId = "ca-app-pub-7164181614025005~1779833417";
+#endif
+#if UNITY_IOS
+        string appId = "ca-app-pub-7164181614025005~1874545648";
+#endif
+
         MobileAds.Initialize(appId);
 
         RequestInterstitial();
